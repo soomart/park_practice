@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/selector.css">
+  <title>자식 자손 선택자</title>
+</head>
+<body>
+  <div id="parent">
+    조상 div태그
+    <p>p태그</p>
+    <div>
+      <span>span태그</span>
+      <strong>
+        strong태그
+        <a class="children" href="#">자손 a태그</a>
+        <span>자손 span태그</span>
+      </strong>
+    </div>
+  </div>
+
+  <div id="box">
+    <form>
+      <fieldset>
+        <legend>자식 자손 선택하기</legend>
+        <div>
+          <span>아이디</span><input type="text" placeholder="아이디를 입력하세요.">
+          <span>비밀번호</span><input type="password" placeholder="비밀번호를 입력하세요.">
+        </div>
+        <div>
+          <label>
+            <span>수신 동의</span><input type="checkbox" value="동의">
+          </label>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+
+</body>
+</html>
